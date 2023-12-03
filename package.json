@@ -1,0 +1,33 @@
+{
+  "name": "aws-cfn-templates",
+  "version": "1.0.0",
+  "description": "Various System Architectures use AWS CloudFormation",
+  "main": "index.js",
+  "scripts": {
+    "cdk": "cdk",
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
+  "author": "i-zacky",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20.10.2",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "aws-cdk": "^2.113.0",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.113.0",
+    "constructs": "^10.3.0",
+    "dayjs": "^1.11.10",
+    "lodash": "^4.17.21",
+    "source-map-support": "^0.5.21"
+  }
+}

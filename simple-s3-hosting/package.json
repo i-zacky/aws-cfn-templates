@@ -1,0 +1,13 @@
+{
+  "name": "simple-s3-hosting",
+  "version": "1.0.0",
+  "config": {
+    "env": "dev",
+    "project": "simple-s3-hosting"
+  },
+  "scripts": {
+    "cdk:diff": "cdk diff --context env=${npm_config_env} --context project=${npm_config_project}",
+    "cdk:deploy": "cdk deploy --context env=${npm_config_env} --context project=${npm_config_project}",
+    "cdk:destroy": "cdk destroy --context env=${npm_config_env} --context project=${npm_config_project}"
+  }
+}
