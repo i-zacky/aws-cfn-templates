@@ -61,5 +61,5 @@ $ npm run cdk:deploy --env=${env}
 
 ```sh
 # ${env} : dev / stg / prod
-$ npm run cdk:deploy --env=${env}
+$ npm run cdk:destroy --env=${env}
 ```
