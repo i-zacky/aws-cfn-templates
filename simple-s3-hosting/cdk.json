@@ -13,5 +13,8 @@
     ]
   },
   "versionReporting": false,
-  "context": {}
+  "pathMetadata": false,
+  "context": {
+    "project": "simple-s3-hosting"
+  }
 }

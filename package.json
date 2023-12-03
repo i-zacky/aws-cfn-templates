@@ -2,9 +2,8 @@
   "name": "aws-cfn-templates",
   "version": "1.0.0",
   "description": "Various System Architectures use AWS CloudFormation",
-  "main": "index.js",
   "scripts": {
-    "cdk": "cdk",
+    "cdk:bootstrap": "cdk bootstrap aws://${AWS_ACCOUNT_ID}/${AWS_DEFAULT_REGION} --toolkit-stack-name cdk-toolkit",
     "build": "tsc",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix"
