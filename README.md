@@ -35,6 +35,8 @@ $ npm run cdk:bootstrap
 
 ### [simple-s3-hosting](./simple-s3-hosting)
 
+### [cloudfront-hosting](./cloudfront-hosting)
+
 ## Diff / Deploy / Destroy
 
 ### Change Directory for Using Catalog
