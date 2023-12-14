@@ -1,0 +1,20 @@
+{
+  "app": "ts-node --prefer-ts-exts bin/app.ts",
+  "watch": {
+    "include": [
+      "**"
+    ],
+    "exclude": [
+      "README.md",
+      "cdk*.json",
+      "**/*.d.ts",
+      "**/*.js",
+      "package*.json"
+    ]
+  },
+  "versionReporting": false,
+  "pathMetadata": false,
+  "context": {
+    "project": "apache-airflow"
+  }
+}

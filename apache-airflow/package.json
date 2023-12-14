@@ -1,0 +1,12 @@
+{
+  "name": "apache-airflow",
+  "version": "1.0.0",
+  "config": {
+    "env": "dev"
+  },
+  "scripts": {
+    "cdk:diff": "cdk diff --context env=${npm_config_env}",
+    "cdk:deploy": "cdk deploy --context env=${npm_config_env}",
+    "cdk:destroy": "cdk destroy --context env=${npm_config_env}"
+  }
+}
